@@ -17,9 +17,9 @@ class telegraf::config inherits telegraf {
     'flush_jitter'                  => $telegraf::flush_jitter,
     'precision'                     => $telegraf::precision,
     'logfile'                       => $telegraf::logfile,
-    'logfile_rotation_interval'     => $telegraf::logfile_rotation_interval,
-    'logfile_rotation_max_size'     => $telegraf::logfile_rotation_max_size,
-    'logfile_rotation_max_archives' => $telegraf::logfile_rotation_max_archives,
+    #'logfile_rotation_interval'     => $telegraf::logfile_rotation_interval,
+    #'logfile_rotation_max_size'     => $telegraf::logfile_rotation_max_size,
+    #'logfile_rotation_max_archives' => $telegraf::logfile_rotation_max_archives,
     'debug'                         => $telegraf::debug,
     'quiet'                         => $telegraf::quiet,
   }
