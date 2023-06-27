@@ -5,9 +5,9 @@
 # @param ensure State of the telegraf package. You can also specify a particular version to install
 # @param config_file Path to the configuration file
 # @param logfile Path to the log file
-# @param logfile_rotation_interval Time interval after which the logfile is rotated. eg: "1d", 0=off
-# @param logfile_rotation_max_size Max logfile size allowed before log rotation. eg: "10MB", 0=off
-# @param logfile_rotation_max_archives Maximum number of rotated archives retained prior to deletion. -1=No archives removed
+# @param logfile_rotation_interval Time interval after which the logfile is rotated. eg: "1d", 0=off=default
+# @param logfile_rotation_max_size Max logfile size allowed before log rotation. eg: "10MB", 0=off=default
+# @param logfile_rotation_max_archives Maximum number of rotated archives retained prior to deletion. -1=No archives removed. Default=0
 # @param config_file_owner User to own the telegraf config file
 # @param config_file_group Group to own the telegraf config file
 # @param config_file_mode File mode for the telegraf config file
