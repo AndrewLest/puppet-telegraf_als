@@ -112,9 +112,9 @@ class telegraf::params {
   $omit_hostname                 = false
   $interval                      = '10s'
   $round_interval                = true
-  $logfile_rotation_interval     = '0'
-  $logfile_rotation_max_size     = '0'
-  $logfile_rotation_max_archives = 0
+  $logfile_rotation_interval     = '0h'
+  $logfile_rotation_max_size     = '0MB'
+  $logfile_rotation_max_archives = 5
   $metric_batch_size             = 1000
   $metric_buffer_limit           = 10000
   $collection_jitter             = '0s'
